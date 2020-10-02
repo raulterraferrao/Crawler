@@ -1,0 +1,8 @@
+TimeoutError: waiting for selector ".table_descricao_produtos" failed: timeout 30000ms exceeded
+    at new WaitTask (/home/raul/Development/Flutter/Crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:394:34)
+    at DOMWorld._waitForSelectorOrXPath (/home/raul/Development/Flutter/Crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:326:26)
+    at DOMWorld.waitForSelector (/home/raul/Development/Flutter/Crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/DOMWorld.js:309:21)
+    at Frame.waitForSelector (/home/raul/Development/Flutter/Crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/FrameManager.js:801:51)
+    at Page.waitForSelector (/home/raul/Development/Flutter/Crawler/node_modules/puppeteer/lib/cjs/puppeteer/common/Page.js:1215:33)
+    at scrape (/home/raul/Development/Flutter/Crawler/scrapeSub.js:48:22)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
